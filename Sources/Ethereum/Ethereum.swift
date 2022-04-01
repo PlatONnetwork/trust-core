@@ -102,3 +102,23 @@ public final class TomoChain: Ethereum {
         return .tomoChain
     }
 }
+
+public final class Platon: Ethereum {
+    public override var chainID: Int {
+        return 100
+    }
+
+    public override var coinType: SLIP.CoinType {
+        return .lat
+    }
+}
+
+public final class Alaya: Ethereum {
+    public override var chainID: Int {
+        return 201018
+    }
+
+    public override var coinType: SLIP.CoinType {
+        return .atp
+    }
+}
