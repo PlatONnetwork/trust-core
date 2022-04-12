@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.public_header_files = 'Sources/TrustCore.h', 'Sources/Crypto.h'
 
   s.dependency 'BigInt'
-  s.dependency 'TrezorCrypto', '~> 0.0.8'
+  s.dependency 'TrezorCrypto', '~> 0.0.9'
   s.dependency 'SwiftProtobuf', '~> 1.0'
 
   s.pod_target_xcconfig = { 'SWIFT_OPTIMIZATION_LEVEL' => '-Owholemodule' }
